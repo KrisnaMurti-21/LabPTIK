@@ -1,0 +1,14 @@
+ERROR - 2022-07-01 00:56:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-01 00:56:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\app\Controllers\Lab.php(35): CodeIgniter\BaseModel->first()
+#5 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\system\CodeIgniter.php(832): App\Controllers\Lab->rpl()
+#6 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#7 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\krisna\Downloads\Compressed\paling mendem_2\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\krisna...')
+#10 {main}

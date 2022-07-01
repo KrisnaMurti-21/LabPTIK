@@ -1,0 +1,121 @@
+ERROR - 2022-06-17 01:43:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-17 01:43:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(26): CodeIgniter\BaseModel->first()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->rpl()
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#10 {main}
+ERROR - 2022-06-17 03:39:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-17 03:39:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(40): CodeIgniter\BaseModel->first()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->tkj()
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#10 {main}
+ERROR - 2022-06-17 03:42:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-17 03:42:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(26): CodeIgniter\BaseModel->first()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->rpl()
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#10 {main}
+ERROR - 2022-06-17 03:43:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-17 03:43:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(33): CodeIgniter\BaseModel->first()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->mulmed()
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#10 {main}
+ERROR - 2022-06-17 04:02:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-17 04:02:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(26): CodeIgniter\BaseModel->first()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->rpl()
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#10 {main}
+ERROR - 2022-06-17 06:19:19 --> Unknown column 'id_lab' in 'where clause'
+CRITICAL - 2022-06-17 06:19:19 --> Unknown column 'id_lab' in 'where clause'
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(26): CodeIgniter\BaseModel->first()
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->rpl()
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#9 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#12 {main}
+CRITICAL - 2022-06-17 06:24:11 --> Undefined array key "foto"
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Views\laboratorium\rpl.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Belajar\\Fram...', 13)
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(210): include('D:\\Belajar\\Fram...')
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Common.php(1089): CodeIgniter\View\View->render('laboratorium/rp...', Array, true)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(27): view('laboratorium/rp...', Array)
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->rpl()
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#10 {main}
+CRITICAL - 2022-06-17 06:24:13 --> Undefined array key "foto"
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Views\laboratorium\rpl.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Belajar\\Fram...', 13)
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(210): include('D:\\Belajar\\Fram...')
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Common.php(1089): CodeIgniter\View\View->render('laboratorium/rp...', Array, true)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(27): view('laboratorium/rp...', Array)
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->rpl()
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#10 {main}
+CRITICAL - 2022-06-17 06:24:14 --> Undefined array key "foto"
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Views\laboratorium\rpl.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Belajar\\Fram...', 13)
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(210): include('D:\\Belajar\\Fram...')
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Common.php(1089): CodeIgniter\View\View->render('laboratorium/rp...', Array, true)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(27): view('laboratorium/rp...', Array)
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->rpl()
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#10 {main}

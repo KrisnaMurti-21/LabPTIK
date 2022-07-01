@@ -1,0 +1,77 @@
+ERROR - 2022-06-21 22:29:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+	updated_at DATETIM...' at line 4
+ERROR - 2022-06-21 22:33:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NOT NULL,
+	`updated_at` DATETIME NOT NULL,
+	...' at line 4
+ERROR - 2022-06-21 22:34:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NULL,
+	`updated_at` DATETIME NULL,
+	CONSTRAI...' at line 4
+ERROR - 2022-06-21 22:35:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NOT NULL,
+	`updated_at` DATETIME NOT NULL,
+	...' at line 4
+ERROR - 2022-06-21 22:36:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NULL,
+	`updated_at` DATETIME NULL,
+	CONSTRAI...' at line 4
+ERROR - 2022-06-21 22:38:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`gambar` VARCHAR NOT NULL,
+	`created_at` DATETIME NULL,
+	`updated_...' at line 3
+CRITICAL - 2022-06-21 23:11:27 --> Undefined variable $fasilitasModel
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Belajar\\Fram...', 58)
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->fac_rpl()
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#6 {main}
+CRITICAL - 2022-06-21 23:13:18 --> Undefined variable $fasilitasModel
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Belajar\\Fram...', 58)
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->fac_rpl()
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#6 {main}
+CRITICAL - 2022-06-21 23:14:03 --> Undefined variable $fasilitasModel
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Belajar\\Fram...', 58)
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->fac_rpl()
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#6 {main}
+CRITICAL - 2022-06-21 23:14:51 --> Undefined constant "nama_barang"
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(210): include()
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Common.php(1089): CodeIgniter\View\View->render('fasilitas/fasil...', Array, true)
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(60): view('fasilitas/fasil...', Array)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->fac_rpl()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#9 {main}
+CRITICAL - 2022-06-21 23:15:37 --> Undefined constant "gambar"
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(210): include()
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Common.php(1089): CodeIgniter\View\View->render('fasilitas/fasil...', Array, true)
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(60): view('fasilitas/fasil...', Array)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->fac_rpl()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#6 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#9 {main}
+CRITICAL - 2022-06-21 23:38:07 --> Undefined variable $data
+#0 D:\Belajar\Framework\ktb-lab\ktb-lab\app\Controllers\Lab.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Belajar\\Fram...', 72)
+#1 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Lab->fac_mulmed()
+#2 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#3 D:\Belajar\Framework\ktb-lab\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Belajar\Framework\ktb-lab\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Belajar\Framework\ktb-lab\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('D:\\Belajar\\Fram...')
+#6 {main}

@@ -1,0 +1,138 @@
+CRITICAL - 2022-06-30 09:54:22 --> auth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+CRITICAL - 2022-06-30 09:56:53 --> auth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+CRITICAL - 2022-06-30 09:58:54 --> auth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+CRITICAL - 2022-06-30 09:59:33 --> Cannot redeclare Config\Filters::$aliases
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-30 09:59:57 --> Cannot redeclare Config\Filters::$aliases
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-30 10:02:43 --> auth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+CRITICAL - 2022-06-30 10:04:11 --> Cannot redeclare Config\Filters::$aliases
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-30 10:05:56 --> auth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+CRITICAL - 2022-06-30 10:06:28 --> auth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+CRITICAL - 2022-06-30 10:09:34 --> auth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+CRITICAL - 2022-06-30 10:15:50 --> auth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+CRITICAL - 2022-06-30 10:17:01 --> auth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+CRITICAL - 2022-06-30 10:50:02 --> NoAuth filter must have a matching alias defined.
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('NoAuth')
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('NoAuth', 'before')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#5 {main}
+ERROR - 2022-06-30 11:20:20 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-06-30 11:20:20 --> Unknown column 'status' in 'where clause'
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Artemis\Desktop\paling mendem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Artemis\Desktop\paling mendem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Artemis\Desktop\paling mendem\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\Artemis\Desktop\paling mendem\app\Controllers\Lab.php(95): CodeIgniter\BaseModel->find()
+#7 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(832): App\Controllers\Lab->reservasi()
+#8 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#9 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#12 {main}
+ERROR - 2022-06-30 11:21:29 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-06-30 11:21:29 --> Unknown column 'status' in 'where clause'
+#0 C:\Users\Artemis\Desktop\paling mendem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Artemis\Desktop\paling mendem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Artemis\Desktop\paling mendem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Artemis\Desktop\paling mendem\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\Artemis\Desktop\paling mendem\app\Controllers\Lab.php(95): CodeIgniter\BaseModel->find()
+#7 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(832): App\Controllers\Lab->reservasi()
+#8 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#9 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#12 {main}
+CRITICAL - 2022-06-30 11:21:51 --> Undefined property: App\Controllers\Lab::$modelLab
+#0 C:\Users\Artemis\Desktop\paling mendem\app\Controllers\Lab.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Artemi...', 95, Array)
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(832): App\Controllers\Lab->reservasi()
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#3 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#6 {main}
+CRITICAL - 2022-06-30 11:21:58 --> Undefined property: App\Controllers\Lab::$modelLab
+#0 C:\Users\Artemis\Desktop\paling mendem\app\Controllers\Lab.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Artemi...', 95, Array)
+#1 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(832): App\Controllers\Lab->reservasi()
+#2 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#3 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#6 {main}
+CRITICAL - 2022-06-30 11:50:14 --> Undefined variable: level
+#0 C:\Users\Artemis\Desktop\paling mendem\app\Views\layout.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Artemi...', 1, Array)
+#1 C:\Users\Artemis\Desktop\paling mendem\system\View\View.php(210): include('C:\\Users\\Artemi...')
+#2 C:\Users\Artemis\Desktop\paling mendem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Artemis\Desktop\paling mendem\system\View\View.php(226): CodeIgniter\View\View->render('layout', Array, true)
+#4 C:\Users\Artemis\Desktop\paling mendem\system\Common.php(1089): CodeIgniter\View\View->render('home/bukti_regi...', Array, true)
+#5 C:\Users\Artemis\Desktop\paling mendem\app\Controllers\Lab.php(144): view('home/bukti_regi...')
+#6 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(832): App\Controllers\Lab->bukti_regis()
+#7 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+#8 C:\Users\Artemis\Desktop\paling mendem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Artemis\Desktop\paling mendem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Artemis\Desktop\paling mendem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Artemi...')
+#11 {main}

@@ -1,0 +1,17 @@
+CRITICAL - 2022-06-14 23:35:02 --> Undefined variable: page
+#0 C:\xampp\htdocs\ktb-lab\app\Views\template\nav.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\ktb-lab\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ktb-lab\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ktb-lab\system\View\View.php(424): CodeIgniter\View\View->render('template/nav', NULL, true)
+#4 C:\xampp\htdocs\ktb-lab\app\Views\layout.php(2): CodeIgniter\View\View->include('template/nav')
+#5 C:\xampp\htdocs\ktb-lab\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ktb-lab\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ktb-lab\system\View\View.php(226): CodeIgniter\View\View->render('layout', Array, true)
+#8 C:\xampp\htdocs\ktb-lab\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#9 C:\xampp\htdocs\ktb-lab\app\Controllers\Home.php(10): view('home/index')
+#10 C:\xampp\htdocs\ktb-lab\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\ktb-lab\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\ktb-lab\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ktb-lab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ktb-lab\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
